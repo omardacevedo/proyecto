@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mi página web</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo1.png">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Quiénes_Somos.html">Quiénes Somos</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="Contáctenos.html">Contáctenos</a></li>           
+            </ul>
+        </nav>
+    </header>
+    <h1 class="tittlesh2">Formulario</h1>
+    <form>
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" placeholder="Ingrese su nombre" id="nombre" required>
+        </p>
+
+        <p>
+            <label for="apellido">Apellido:</label>
+            <input type="text" placeholder="Ingrese su apellido" id="apellido">
+        </p>
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="Ingrese su correo" id="email" required>
+        </p>
+        
+        <p>Estado civil:
+            <select>
+                <option seleted>Soltero/a</option>
+                <option>Casado/a</option>
+            </select>
+        </p>
+        <p>¿Desea recibir el Newsletter? <input type="checkbox" checked></p>
+
+        <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese sus Comentarios"></textarea>
+
+
+        <p>
+            <input type="reset" value="Limpiar formulario">
+            <input type="submit" value="Enviar" onclick="alert ('¿Está seguro de enviar?');">
+        </p>
+
+        
+
+        
+    </form>
+
+    <!--
+●	Campo de Nombre.
+●	Campo de Email
+●	Estado Civil
+●	Desea recibir el Newsletter
+●	Campo comentarios
+●	Boton limpiar datos
+●	Boton enviar
+-->
+    
+    
+</body>
+</html>
